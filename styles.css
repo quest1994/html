@@ -1,0 +1,84 @@
+    body {
+        background-color: rgb(33, 144, 172);
+    }
+    
+    .container {
+        display: flex;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        background-color: rgb(215, 223, 183);
+        margin-top: 10em;
+        margin-bottom: 5em;
+        position: absolute;
+        margin-left: 5em;
+    }
+    
+    .laptop {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    
+    .laptop:hover {
+        background-color: lightgrey;
+        cursor: pointer;
+    }
+    
+    .desktop {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    
+    .desktop:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+    
+    .mobile {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    
+    .mobile:hover {
+        background-color: lightgrey;
+        cursor: pointer;
+    }
+    
+    #dv {
+        width: 5em;
+        padding-left: 3em;
+    }
+    
+    #lp {
+        height: 5em;
+        width: 5em;
+        padding-left: 5em;
+    }
+    
+    #mon {
+        height: 5em;
+        width: 5em;
+        padding-left: 5em;
+    }
+    
+    #mtxt {
+        font-family: Roboto, sans-serif;
+        font-weight: 500%;
+        font-size: 150%;
+        color: rgb(29, 29, 185);
+        text-align: center;
+    }
+    
+    #ptxt {
+        text-align: center;
+        color: dimgrey;
+        font-family: roboto, sans-serif;
+    }
+    
+    #sup {
+        font-family: Roboto, sans-serif;
+        font-weight: 500%;
+        font-size: 100%;
+        color: rgb(29, 29, 185);
+        text-align: center;
+    }
